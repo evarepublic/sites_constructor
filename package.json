@@ -1,0 +1,19 @@
+{
+  "name": "sites_constructor",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html  --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evarepublic/sites_constructor.git"
+  },
+  "author": "Eva <ever4ever@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
